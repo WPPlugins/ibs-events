@@ -1,0 +1,91 @@
+.ibs-admin-bar{
+    margin-top:10px; 
+    font-weight:bold;
+    background-color:gray; 
+    color:white; 
+    padding:3px;
+}
+.ibs-admin-bar a{
+    margin-top:10px; 
+    font-weight:inherit;
+    background-color:inherit; 
+    color:inherit; 
+    text-decoration:none
+}
+.ibs-admin-bar a:hover{
+     font-weight:bolder;
+}
+.feed-div{
+    clear:both;
+    width:100%;
+    margin-top:5px;
+}
+
+.feed-div span{
+    float:left;
+    margin-top:4px;
+    width:60px;
+}
+.feed-div input{
+    float:left;
+    margin-top:3px;
+}
+.feed-letter{
+    float:left;
+    width:60px;
+    margin-top:5px;
+}
+.feed-background{
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px;
+}
+.feed-color-box{
+    float:left;
+    margin:2px;
+    margin-top: 7px;
+    width:16px;
+    height:16px;
+}
+.feed-color-box-selected{
+    background-image: url(checkmark.png);
+    background-repeat: no-repeat;
+}
+.qtip-table td{
+    margin:0px;
+    padding:3px;
+}
+#shortcode-options div span{
+    width:150px;
+    display:inline-block;
+}
+#shortcode-options div{
+    width:100%;
+    margin:5px;
+    display:inline-block;
+}
+#available-views{
+    position:relative;
+    padding-left:150px;
+}
+#aviable-feeds div span{
+    width:150px;
+    display:inline-block;
+}
+#dropdown-dns label{
+    display:inline-block;
+    width:20px;
+    font-weight: bold;
+}
+.aligncenter{
+    display : block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.alignleft{
+    float:left;
+}
+.algnright{
+    float:right;
+}

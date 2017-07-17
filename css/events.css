@@ -1,0 +1,105 @@
+.input[type=checkbox]{
+    vertical-align:middle;
+    margin-top:3px;
+}
+.option-label{
+    width:100px;
+    text-align: left;
+}
+.option-name{
+    margin-bottom: 10px;
+    width : 75px;
+}
+.cb{
+    margin-top:5px !important;
+}
+.error {
+    color: red;
+}
+
+.option-input input:not([type=checkbox]):not([type=radio]):not([type=number]) , select {
+    width: 200px;
+    box-sizing: border-box;
+}
+.option-input  input {
+    padding: .2em;
+}
+.option-input input[type=number]{
+    width: 50px;
+}
+.option-input  {
+    float: left;
+    width: 100%
+}
+.option-input  th {
+    width: 10em !important;
+}
+
+.color-letter{
+    float:left;
+    width:60px;
+    margin-top:5px;
+}
+.color-background{
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px;
+}
+.color-box{
+    float:left;
+    margin:2px;
+    margin-top: 5px;
+    width:16px;
+    height:16px;
+}
+.color-box-selected{
+    background-image: url(checkmark.png);
+    background-repeat: no-repeat;
+}
+#event-dialog label{
+    float:left;
+    margin-top: 5px;
+    margin-right:5px;
+}
+#event-dialog input{
+    float:left;
+    margin-bottom:5px;
+}
+.ibs-event-date label{
+    width : 32px;
+}
+.ibs-datepicker{
+    width: 100px;
+}
+.ibs-timepicker{
+    width: 100px;
+}
+#ibs-events-table{
+    border-style:solid;
+    border-width:1px;
+    border-color:silver;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+.ibs-events-td{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+.event-right{
+    text-align:right;
+}
+.event-center{
+    text-align:center;
+}
+.repeat-not-active{
+}
+.repeat-not-active label:not(.option-name){
+}
+.ibs-event-error{
+    color:white !important;
+    background-color:red !important;
+}
